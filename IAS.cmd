@@ -63,7 +63,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=https://github.com/lstprjct/IDM-Activation-Script/wiki/"
+set "mas=https://github.com/nhinguyen2601/IDM/wiki"
 
 ::  Check if Null service is working, it's important for the batch script
 
