@@ -8,9 +8,11 @@
 ::
 ::   IDM Activation Script (IAS)
 ::
+::   Create By Piash
+::
+::   Copy By https://t.me/vantanphuoc
+::
 ::   Homepages: https://github.com/nhinguyen2601/IDM
-:: 
-::   Telegram: https://t.me/vantanphuoc
 ::
 ::============================================================================
 
@@ -369,17 +371,17 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "Create By Phuoc Van"
-echo:            ___________________________________________________ 
-echo:
+call :_color2 %_White% "             " %_Green% "Create By Piash"
+echo:            ___________________________________________________
+echo:               Copy By https://t.me/vantanphuoc
 echo:               Telegram: @vantanphuoc
 echo:               Github: https://github.com/nhinguyen2601
-echo:            ___________________________________________________ 
+echo:            ___________________________________________________
 echo:                                                               
 echo:               [1] Activate
 echo:               [2] Freeze Trial
 echo:               [3] Reset Activation / Trial
-echo:               _____________________________________________   
+echo:               ________________________________________________
 echo:                                                               
 echo:               [4] Download IDM
 echo:               [5] Help
