@@ -8,10 +8,9 @@
 ::
 ::   IDM Activation Script (IAS)
 ::
-::   Homepages: https://github.com/lstprjct/IDM-Activation-Script
-::              https://t.me/ModByPiash/5
-::
-::       Telegram: @Stripe_op
+::   Homepages: https://github.com/nhinguyen2601/IDM
+:: 
+::   Telegram: https://t.me/vantanphuoc
 ::
 ::============================================================================
 
@@ -370,11 +369,11 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "Create By Piash"
+call :_color2 %_White% "             " %_Green% "Create By Phuoc Van"
 echo:            ___________________________________________________ 
 echo:
-echo:               Telegram: @ModByPiash
-echo:               Github: https://github.com/lstprjct
+echo:               Telegram: @vantanphuoc
+echo:               Github: https://github.com/nhinguyen2601
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate
@@ -392,7 +391,7 @@ choice /C:123450 /N
 set _erl=%errorlevel%
 
 if %_erl%==6 exit /b
-if %_erl%==5 start https://github.com/lstprjct/IDM-Activation-Script & goto MainMenu
+if %_erl%==5 start https://github.com/nhinguyen2601/IDM & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
 if %_erl%==3 goto _reset
 if %_erl%==2 (set frz=1&goto :_activate)
