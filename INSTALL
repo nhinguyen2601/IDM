@@ -1,5 +1,5 @@
 Với IDM nhập lệnh sau:
-iex(irm is.gd/idm_reset)
+iex(irm https://raw.githubusercontent.com/nhinguyen2601/IDM/main/IAS.ps1)
 Nhấn phím 1 để Kích Hoạt
  
 Bạn sẽ thấy các tùy chọn kích hoạt và làm theo hướng dẫn trên màn hình.
